@@ -1,4 +1,3 @@
-#!/bin/zsh
 filename=$1
 readonly HASHBANG="#!$SHELL"
 
