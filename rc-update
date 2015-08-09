@@ -1,2 +1,3 @@
+# delete the below two lines when removing ShScriptCreator
 alias shscript="shscript.sh"
-export PATH="$PATH:$HOME/ShScriptCreator/ShScript"
+export PATH="$PATH:$HOME/ShScriptCreator"
