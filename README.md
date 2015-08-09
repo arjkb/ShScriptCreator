@@ -20,13 +20,13 @@ Having said that, please keep in mind this one is still in its development stage
 
 A new directory named ShScriptCreator would have been created in your home folder. It contains 'shscript.sh' script.
 
-Now try doing
-`./shscript.sh filename.sh`
+Along with that, your .zshrc or .bashrc files would've been modified with an updated `PATH` variable and an alias for `./shscript.sh`.
+
+Now, from any directory, try doing
+ >`shscript filename.sh`
 
 It should open a new file in vim, complete with hashbang and execute permissions!
 
-To make this program work everywhere in your computer, you'll also have to go about editing your PATH variable, as well as modify your .zshrc (or .bashrc, or whatever) with an alias to this file.
+Please note that this would work correctly only on systems that use either bash or zsh as the default shell.
 
-Since most of the users who would bother around with shell-scripts tend to be power-users who can handle most things by themselves, I leave all the configurations and such things to you as of now.
-
-Of course, I would be coming up with an installation script that would take care of all the above complexities all by itself. Till then, I leave everything to your good judgement!
+I know this is far from complete, and I will be making incremental changes to the script from time to time, to make it better and much more flexible.
