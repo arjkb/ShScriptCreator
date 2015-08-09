@@ -6,17 +6,17 @@ echo $HASHBANG > shscript.sh
 cat scriptcode.sh >> shscript.sh
 
 # copy script to proper location
-mkdir ~/ShScriptCreator && mv shscript.sh ~/ShScriptCreator
+mkdir $HOME/ShScriptCreator && mv shscript.sh $HOME/ShScriptCreator
 
-chmod +x ~/ShScriptCreator/shscript.sh   # change permission
+chmod +x $HOME/ShScriptCreator/shscript.sh   # change permission
 
 
 if [ $SHELL == "/bin/zsh" ]
 then
-	cat rc-update >> ~/.zshrc
+	cat rc-update >> $HOME/.zshrc
 else
 	if [ $SHELL == "/bin/bash" ]
 	then
-		cat rc-update >> ~/.bashrc
+		cat rc-update >> $HOME/.bashrc
 	fi
 fi
