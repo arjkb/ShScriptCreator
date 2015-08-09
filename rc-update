@@ -1,0 +1,2 @@
+alias shscript="shscript.sh"
+export PATH="$PATH:$HOME/ShScriptCreator/ShScript"
