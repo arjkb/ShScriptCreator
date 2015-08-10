@@ -17,6 +17,7 @@ If `vim` is not installed, you should install it using
 > `sudo apt-get install vim`
 
 Once you've got that checked, you may proceed to install ShScript Creator on your system.
+
 1. Download the zip, and extract it onto somewhere.
 2. Go to the directory where you unzipped the file
 3. Execute
